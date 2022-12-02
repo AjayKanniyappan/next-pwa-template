@@ -1,15 +1,26 @@
-import Head from 'next/head';
-
-function Meta() {
+export default function Meta() {
   return (
-    <Head>
+    <>
       <title>Next PWA Template</title>
       <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" type="image/png" href="/images/favicon.png" />
+      <meta name="description" content="A Complete Foundation for Building Robust PWA Apps" />
+      <meta
+        name="keywords"
+        content="Next.js, pwa, PWA-app, React, Electron, HTML, CSS, Sass, JavaScript, TypeScript"
+      />
+      <meta name="author" content="Ajay Kanniyappan" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=0, viewport-fit=cover"
+      />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Next PWA Template" />
+      <meta name="application-name" content="Next PWA Template" />
+      <link rel="icon" type="image/png" href="/images/favicon.ico" />
+      <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
       <link rel="manifest" href="/manifest.json" />
-    </Head>
+    </>
   );
 }
-
-export default Meta;
