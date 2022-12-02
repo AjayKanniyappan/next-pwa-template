@@ -1,7 +1,7 @@
 {
   "name": "next-pwa-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Complete Foundation for Building Robust PWA Apps",
   "keywords": [
     "NextJS",
     "React",
@@ -31,6 +31,7 @@
   },
   "scripts": {
     "build": "next build",
+    "clean": "git clean -dfX",
     "dev": "next dev -p 5050",
     "lint": "next lint --fix --max-warnings 0 .",
     "prepare": "husky install",
