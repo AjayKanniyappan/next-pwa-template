@@ -11,7 +11,7 @@ const withPWA = require('next-pwa')({
 });
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
-let assetPrefix = '/';
+let assetPrefix = ' ';
 let basePath = '';
 
 if (isGithubActions) {
